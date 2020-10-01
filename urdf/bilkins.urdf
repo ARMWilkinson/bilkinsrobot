@@ -136,14 +136,14 @@
   <!-- Hokuyo Laser -->
   <link name="hokuyo_link">
     <collision>
-      <origin xyz="2 0 0" rpy="0 0 0"/>
+      <origin xyz="-1 0 1.2" rpy="0 0 0"/>
       <geometry>
-	<box size="1 1 1"/>
+	<box size="0.1 0.1 0.1"/>
       </geometry>
     </collision>
 
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <origin xyz="-1 0 1.2" rpy="0 0 0"/>
       <geometry>
         <mesh filename="package://bilkins/meshes/hokuyo.dae"/>
       </geometry>
